@@ -1,8 +1,8 @@
 # Fractals-MIPS
 Fractals (Julia and Mandelbrot's sets) generation in MIPS assembly.
 
-Program copies the header from the in.bmp file, which is 500x500 by default, and then calculates the chosen set using only int registers.
-The colors are calculated by simple multiplicaiton based on the 'scale' (default 50 30 20).
+Program copies the header from the in.bmp file (default 500x500) and then calculates the chosen set using only int registers.
+The colors are calculated by simple multiplicaiton based on the 'scale' variable (default 50 30 20).
 
 ## Examples
 
